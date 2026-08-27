@@ -1,8 +1,9 @@
 # POO
-TPO POO
+PARADIGMA ORIENTADA A OBJETOS
+==== Alumnos ====
+Axel Olivares: Soy estudiante en la tecnicatura en desarrollo de software en UADE. Mi objetivo es terminar la carrera adqueriendo la mayor cantidad de conococimientos posibles. Y así como meta, lograr seguir estudiante en la carrera de la Licenciatura en gestión de Teconología de la información.
 
-BITACORA 24/08/26
-CLASE 3
+BITACORA 24/08/26 - CLASE 3 / GUÍA DE EJERCITACIÓN
 
 Bloque 1 - La Java Virtual Machine — JDK, JRE, JVM, bytecodeyClasspath
 EJERCICIO 1.1
