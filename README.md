@@ -259,16 +259,10 @@ public class RegistroTemperaturas {
 }
 
 ===============================
-/*
- * Clase que permite registrar las temperaturas de una semana
- * y realizar diferentes cálculos sobre ellas.
- */
 public class RegistroTemperaturas {
 
-    // Arreglo con las temperaturas de los 7 días.
     double[] temperaturas = {25.5, 28.0, 31.5, 30.0, 27.5, 33.0, 29.0};
 
-    // Calcula el promedio de las temperaturas.
     double calcularPromedio() {
         double sumaTemperaturas = 0;
 
@@ -279,7 +273,6 @@ public class RegistroTemperaturas {
         return sumaTemperaturas / temperaturas.length;
     }
 
-    // Busca la temperatura máxima.
     double encontrarMaxima() {
         double temperaturaMaxima = temperaturas[0];
 
@@ -292,7 +285,6 @@ public class RegistroTemperaturas {
         return temperaturaMaxima;
     }
 
-    // Busca la temperatura mínima.
     double encontrarMinima() {
         double temperaturaMinima = temperaturas[0];
 
@@ -305,7 +297,6 @@ public class RegistroTemperaturas {
         return temperaturaMinima;
     }
 
-    // Cuenta los días que superan el umbral.
     int contarDiasSobreUmbral(double umbral) {
         int cantidadDias = 0;
 
@@ -318,14 +309,13 @@ public class RegistroTemperaturas {
         return cantidadDias;
     }
 
-    // Muestra cada día con su temperatura.
     void mostrarTemperaturas() {
         for (int i = 0; i < temperaturas.length; i++) {
             System.out.println("Día " + (i + 1) + ": " + temperaturas[i] + " grados");
         }
     }
 
-    public static void main(String[] args) {
+    public static void registroTemperaturas(String[] args) {
 
         RegistroTemperaturas registro = new RegistroTemperaturas();
 
