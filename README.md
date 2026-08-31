@@ -3,6 +3,8 @@ PARADIGMA ORIENTADA A OBJETOS
 ==== Alumnos ====
 Axel Olivares: Soy estudiante en la tecnicatura en desarrollo de software en UADE. Mi objetivo es terminar la carrera adqueriendo la mayor cantidad de conococimientos posibles. Y así como meta, lograr seguir estudiante en la carrera de la Licenciatura en gestión de Teconología de la información.
 
+Angiello Cancino: Soy estudiante de la licenciatura en gestión de la tecnología de la información en Uade, un objetivo que tengo es poder terminar la carrera y en el transcurso poder conseguir mi primer trabajo, me gusta jugar al fútbol y al básquet, además toco el piano en mis tiempos libre.
+
 BITACORA 24/08/26 - CLASE 3 / GUÍA DE EJERCITACIÓN
 
 Bloque 1 - La Java Virtual Machine — JDK, JRE, JVM, bytecodeyClasspath
