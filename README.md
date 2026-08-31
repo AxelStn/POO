@@ -1,4 +1,3 @@
-<img width="1086" height="1448" alt="WhatsApp Image 2026-08-31 at 4 10 06 PM" src="https://github.com/user-attachments/assets/2587d6dc-5855-4d67-8b87-f2a5e4c3e82f" />
 # POO
 PARADIGMA ORIENTADA A OBJETOS
 ==== Alumnos ====
