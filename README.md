@@ -314,23 +314,9 @@ public class RegistroTemperaturas {
             System.out.println("Día " + (i + 1) + ": " + temperaturas[i] + " grados");
         }
     }
-
-    public static void registroTemperaturas(String[] args) {
-
-        RegistroTemperaturas registro = new RegistroTemperaturas();
-
-        registro.mostrarTemperaturas();
-
-        System.out.println("Promedio: " + registro.calcularPromedio());
-        System.out.println("Máxima: " + registro.encontrarMaxima());
-        System.out.println("Mínima: " + registro.encontrarMinima());
-        System.out.println("Días sobre 30 grados: "
-                + registro.contarDiasSobreUmbral(30.0));
-    }
 }
 
-==============================
-public class Main {
+class Main {
 
     public static void main(String[] args) {
 
@@ -345,4 +331,5 @@ public class Main {
                 + registro.contarDiasSobreUmbral(30.0));
     }
 }
+
 
