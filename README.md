@@ -10,3 +10,6 @@ PARADIGMA ORIENTADA A OBJETOS
 
 BITACORA 24/08/26 - CLASE 3 / GUÍA DE EJERCITACIÓN 
 Actualización (31/08/26) - Se subieron los resultados en el repositorio mismo.
+
+5/10/26 - CLASE 9 
+Actualización: UML y Documentación 
