@@ -1,4 +1,4 @@
-package exilio.Habilidades;
+package exilio;
 
 public class Espada {
     private double danio;

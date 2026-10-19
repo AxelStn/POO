@@ -1,12 +1,12 @@
-package exilio.Habilidades;
-
-import exilio.Personaje;
+package exilio;
 
 public abstract class Habilidad {
     protected String nombre;
     protected String descripcion;
 
-    public Habilidad() {
+    public Habilidad(String nombre, String descripcion) {
+        this.nombre = nombre;
+        this.descripcion = descripcion;
     }
 
     public abstract void aplicarEfecto(Personaje var1, Espada var2);

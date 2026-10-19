@@ -1,16 +1,18 @@
 package exilio.Habilidades;
 
+import exilio.Espada;
+import exilio.Habilidad;
 import exilio.Personaje;
 
 public class Vampirismo extends Habilidad {
     private int aumentoVidaMaxima;
 
     public Vampirismo() {
-        this.nombre = "Vampirismo";
-        this.descripcion = "Absorbe energía oscura para aumentar permanentemente tu vida máxima.";
+        super("Vampirismo", "Absorbe energía oscura para aumentar permanentemente tu vida máxima.");
         this.aumentoVidaMaxima = 30;
     }
 
+    @Override
     public void aplicarEfecto(Personaje p, Espada e) {
         int vidaMaxActual = p.getVidaMaxima();
         p.setVidaMaxima(vidaMaxActual + this.aumentoVidaMaxima);

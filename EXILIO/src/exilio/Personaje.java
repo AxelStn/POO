@@ -1,7 +1,5 @@
 package exilio;
 
-import exilio.Habilidades.Espada;
-
 public class Personaje {
     private double posY;
     private double posX;
