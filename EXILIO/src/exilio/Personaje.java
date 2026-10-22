@@ -1,5 +1,7 @@
 package exilio;
 
+import exilio.Habilidades.Vampirismo;
+
 public class Personaje {
     private double posY;
     private double posX;
@@ -10,6 +12,10 @@ public class Personaje {
     private Espada espada;
 
     public Personaje() {
+        this.vida = 100;
+        this.vidaMaxima=100;
+        this.velocidad = 1;
+        this.defensa = 50.0;
     }
 
     public void moverse(double dx, double dy) {
@@ -61,6 +67,7 @@ public class Personaje {
         return this.vidaMaxima;
     }
 
-    public void setVidaMaxima(int vidaMaxima) {
+    public void setVidaMaxima(int nuevaVidaMaxima) {
+        this.vidaMaxima = nuevaVidaMaxima;
     }
 }

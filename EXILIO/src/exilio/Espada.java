@@ -8,12 +8,22 @@ public class Espada {
     private int cantidadEspada;
 
     public Espada() {
+        this.danio = 20.0;
+        this.radioOrbita = 30.0;
+        this.anguloRotacion= 0.0;
+        this.velocidadGiro=2.0;
+        this.cantidadEspada = 1;
     }
 
     public void girar() {
+        this.anguloRotacion += this.velocidadGiro;
+        if (this.anguloRotacion > 360){
+            this.anguloRotacion = 0.0;
+        }
     }
 
     public void actualizarPosicion(double centrox, double centroy) {
+
     }
 
     public void impactar() {

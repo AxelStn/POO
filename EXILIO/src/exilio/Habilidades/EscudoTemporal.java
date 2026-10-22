@@ -9,7 +9,7 @@ public class EscudoTemporal extends Habilidad {
 
     public EscudoTemporal() {
         super("Armadura de Placas", "Reduce el daño recibido por los enemigos.");
-        this.aumentoDefensa = 5.0;
+        this.aumentoDefensa = 50;
     }
 
     @Override
