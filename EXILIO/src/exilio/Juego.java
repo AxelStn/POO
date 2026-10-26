@@ -1,7 +1,6 @@
 package exilio;
 
 import exilio.Enemigos.Enemigo;
-
 import java.util.List;
 import java.util.Scanner;
 
@@ -22,6 +21,8 @@ public class Juego {
 
     public void iniciarJuego() {
         System.out.println("=== EL JUEGO EXILIO HA INICIADO ===");
+        System.out.println("=== TU ESTADO INICIAL ===");
+        System.out.println("Vida: " + this.personaje.getVida() + " - Escudo: " + this.personaje.getDefensa());
         this.estadoActual = "Jugando";
         while (this.estadoActual.equals("Jugando")) {
             this.actualizarLogica();
