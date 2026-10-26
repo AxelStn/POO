@@ -1,7 +1,5 @@
 package exilio;
 
-import exilio.Habilidades.Vampirismo;
-
 public class Personaje {
     private double posY;
     private double posX;
@@ -15,7 +13,8 @@ public class Personaje {
         this.vida = 100;
         this.vidaMaxima=100;
         this.velocidad = 1;
-        this.defensa = 50.0;
+        this.defensa = 0;
+        this.espada = new Espada();
     }
 
     public void moverse(double dx, double dy) {
@@ -24,7 +23,13 @@ public class Personaje {
     }
 
     public void recibirDanio(int danio) {
-        this.vida -= danio;
+        if (this.defensa >= danio) {
+            this.defensa -= danio;
+        } else {
+            int danioRestante = (int) (danio - this.defensa);
+            this.defensa = 0;
+            this.vida -= danioRestante;
+        }
     }
 
     public void curar(int monto) {
@@ -32,7 +37,6 @@ public class Personaje {
         if (this.vida > this.vidaMaxima) {
             this.vida = this.vidaMaxima;
         }
-
     }
 
     public boolean estaVivo() {
@@ -69,5 +73,9 @@ public class Personaje {
 
     public void setVidaMaxima(int nuevaVidaMaxima) {
         this.vidaMaxima = nuevaVidaMaxima;
+    }
+
+    public Espada getEspada() {
+        return this.espada;
     }
 }

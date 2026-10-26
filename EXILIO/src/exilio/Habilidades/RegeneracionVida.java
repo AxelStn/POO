@@ -14,7 +14,6 @@ public class RegeneracionVida extends Habilidad {
 
     @Override
     public void aplicarEfecto(Personaje p, Espada e) {
-        int vidaActual = p.getVida();
-        p.setVida(vidaActual + this.curacion);
+        p.curar(this.curacion);
     }
 }

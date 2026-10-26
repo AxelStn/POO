@@ -1,4 +1,5 @@
 package exilio;
+import exilio.Enemigos.Enemigo;
 
 public class Espada {
     private double danio;
@@ -23,10 +24,11 @@ public class Espada {
     }
 
     public void actualizarPosicion(double centrox, double centroy) {
-
+        this.girar();
     }
 
-    public void impactar() {
+    public void impactar(Enemigo e) {
+        e.recibirDanio((int) this.danio);
     }
 
     public void setDanio(double danio) {
