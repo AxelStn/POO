@@ -1,6 +1,6 @@
 package exilio.Enemigos;
 
-import exilio.Personaje;
+import exilio.Modelo.Personaje;
 
 public class JefeFinal extends Enemigo {
     private int faseActual = 1;

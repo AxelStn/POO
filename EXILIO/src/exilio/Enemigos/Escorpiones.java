@@ -1,6 +1,6 @@
 package exilio.Enemigos;
 
-import exilio.Personaje;
+import exilio.Modelo.Personaje;
 
 public class Escorpiones extends Enemigo {
     private double velocidadMovimiento = 1.3;

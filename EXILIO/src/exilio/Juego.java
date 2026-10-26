@@ -1,6 +1,10 @@
 package exilio;
 
 import exilio.Enemigos.Enemigo;
+import exilio.Habilidades.GestorHabilidades;
+import exilio.Habilidades.Habilidad;
+import exilio.Modelo.Horda;
+import exilio.Modelo.Personaje;
 import java.util.List;
 import java.util.Scanner;
 

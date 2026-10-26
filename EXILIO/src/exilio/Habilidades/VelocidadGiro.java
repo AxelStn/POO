@@ -1,8 +1,7 @@
 package exilio.Habilidades;
 
-import exilio.Espada;
-import exilio.Habilidad;
-import exilio.Personaje;
+import exilio.Modelo.Espada;
+import exilio.Modelo.Personaje;
 
 public class VelocidadGiro extends Habilidad {
     private double incrementoVelocidad;

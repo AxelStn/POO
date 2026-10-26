@@ -1,6 +1,7 @@
-package exilio;
+package exilio.Habilidades;
 
-import exilio.Habilidades.*;
+import exilio.Modelo.Espada;
+import exilio.Modelo.Personaje;
 
 import java.util.ArrayList;
 import java.util.Collections;

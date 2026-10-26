@@ -1,4 +1,4 @@
-package exilio;
+package exilio.Modelo;
 import exilio.Enemigos.Enemigo;
 
 public class Espada {

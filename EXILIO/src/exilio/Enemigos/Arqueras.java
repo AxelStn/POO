@@ -1,6 +1,6 @@
 package exilio.Enemigos;
 
-import exilio.Personaje;
+import exilio.Modelo.Personaje;
 
 public class Arqueras extends Enemigo {
     private int rangoAtaque = 50;

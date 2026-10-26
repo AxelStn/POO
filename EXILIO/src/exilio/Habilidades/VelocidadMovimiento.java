@@ -1,8 +1,7 @@
 package exilio.Habilidades;
 
-import exilio.Espada;
-import exilio.Habilidad;
-import exilio.Personaje;
+import exilio.Modelo.Espada;
+import exilio.Modelo.Personaje;
 
 public class VelocidadMovimiento extends Habilidad {
     private double aumentoVelocidad;
@@ -11,6 +10,7 @@ public class VelocidadMovimiento extends Habilidad {
         super("Botas Ligeras", "Aumenta la velocidad de movimiento del personaje.");
         this.aumentoVelocidad = 0.8;
     }
+
     @Override
     public void aplicarEfecto(Personaje p, Espada e) {
         double velActual = p.getVelocidad();

@@ -1,4 +1,4 @@
-package exilio;
+package exilio.Modelo;
 
 public class Personaje {
     private double posY;

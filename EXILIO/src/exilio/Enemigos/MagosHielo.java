@@ -1,6 +1,6 @@
 package exilio.Enemigos;
 
-import exilio.Personaje;
+import exilio.Modelo.Personaje;
 
 public class MagosHielo extends Enemigo {
     private int radioCongelamiento;

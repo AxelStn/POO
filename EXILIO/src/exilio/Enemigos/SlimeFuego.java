@@ -1,6 +1,6 @@
 package exilio.Enemigos;
 
-import exilio.Personaje;
+import exilio.Modelo.Personaje;
 
 public class SlimeFuego extends Enemigo {
     private int areaExplosion;

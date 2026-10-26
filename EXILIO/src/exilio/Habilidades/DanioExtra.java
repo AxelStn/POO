@@ -1,8 +1,7 @@
 package exilio.Habilidades;
 
-import exilio.Espada;
-import exilio.Habilidad;
-import exilio.Personaje;
+import exilio.Modelo.Espada;
+import exilio.Modelo.Personaje;
 
 public class DanioExtra extends Habilidad {
     private double aumentoDanio;
@@ -11,6 +10,7 @@ public class DanioExtra extends Habilidad {
         super("Gran Espada", "Aumenta el daño a los enemigos");
         this.aumentoDanio = 1.5;
     }
+
     @Override
     public void aplicarEfecto(Personaje p, Espada e) {
         double danioActual = e.getDanio();

@@ -1,4 +1,4 @@
-package exilio;
+package exilio.Interfaz;
 
 import javax.swing.*;
 import java.awt.*;

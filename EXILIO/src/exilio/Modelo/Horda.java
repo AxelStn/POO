@@ -1,4 +1,4 @@
-package exilio;
+package exilio.Modelo;
 
 import exilio.Enemigos.*;
 import java.util.ArrayList;
