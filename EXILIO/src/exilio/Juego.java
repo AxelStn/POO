@@ -84,17 +84,17 @@ public class Juego {
             Habilidad elegida = null;
             boolean opcionValida = false;
             while (!opcionValida) {
-                System.out.println("Seleccionar habilidad");
-                String entrada = scanner.nextLine();
-
-                if (entrada.equals("1")) {
-                    elegida = opciones.get(0);
+                try {
+                    System.out.println("Seleccionar habilidad (1 o 2):");
+                    int numero = Integer.parseInt(scanner.nextLine());
+                    elegida = opciones.get(numero - 1);
                     opcionValida = true;
-                } else if (entrada.equals("2")) {
-                    elegida = opciones.get(1);
-                    opcionValida = true;
-                } else {
-                    System.out.println("Opción inválida. Seleccionar una opción sugerida");
+                } catch (NumberFormatException e) {
+                    System.out.println("Error: Tenés que ingresar un número, no letras.");
+                } catch (IndexOutOfBoundsException e) {
+                    System.out.println("Error: Esa opción no existe. Elegí 1 o 2.");
+                } finally {
+                    System.out.println("--------------------------");
                 }
             }
             this.gestorHabilidades.aplicarSeleccion(elegida, this.personaje, this.personaje.getEspada());

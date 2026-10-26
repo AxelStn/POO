@@ -39,6 +39,8 @@ public class Horda {
                 this.enemigos.add(new SlimeFuego(20, 20));
                 this.enemigos.add(new JefeFinal(50, 50));
                 break;
+            default:
+                throw new IllegalArgumentException("El número de horda " + this.numHorda + " no es válido (debe ser entre 1 y 4).");
         }
     }
 
