@@ -59,7 +59,6 @@ public class Juego {
             this.personaje.getEspada().impactar(enemigoActual);
         }
 
-        // REVISAR
         if (enemigoActual.estaVivo()) {
             enemigoActual.atacar(this.personaje);
             System.out.println("=== TU ESTADO ACTUAL ===");

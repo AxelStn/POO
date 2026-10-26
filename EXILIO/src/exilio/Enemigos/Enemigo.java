@@ -2,7 +2,7 @@ package exilio.Enemigos;
 
 import exilio.Personaje;
 
-public class Enemigo {
+public abstract class Enemigo {
     protected double posY;
     protected double posX;
     protected int vida;
@@ -30,8 +30,7 @@ public class Enemigo {
         }
     }
 
-    public void atacar(Personaje p) {
-    }
+    public abstract void atacar(Personaje p);
 
     public void recibirDanio(int danio) {
         this.vida -= danio;
